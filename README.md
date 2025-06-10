@@ -1,11 +1,11 @@
-**Employee Leave Management System** built with **SAP CAPM (Node.js)**:
+**Leave Management System** built with **SAP CAPM (Node.js)**:
 
 ---
 
 ```markdown
-# 🧾 Employee Leave Management System
+# 🧾 Leave Management System
 
-A cloud-based Employee Leave Management System built using **SAP CAPM (Cloud Application Programming Model)** and **Node.js**. This project enables streamlined leave application, approval, and tracking for employees, HR personnel, and managers.
+A cloud-based Leave Management System built using **SAP CAPM (Cloud Application Programming Model)** and **Node.js**. This project enables streamlined leave application, approval, and tracking for employees, HR personnel, and managers.
 
 ---
 
