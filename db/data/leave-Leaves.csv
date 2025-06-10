@@ -1,0 +1,4 @@
+ID;type;status;startDate;endDate;reason;days;appliedDate;criticality;approverComment;approveRejectEnabled;employee_ID
+5d8934fe-6ca6-42ef-b6d4-d4eabf3185e0;Sick;Approved;2024-06-10;2024-06-12;Fever and rest;3;2024-06-01T08:00:00Z;3;Get well soon;false;b45f9709-0a8e-4122-bcb9-89bb4146a8c7
+75e6a723-ae83-41e4-b284-182fcb404269;Casual;Pending;2024-06-15;2024-06-16;Family event;2;2024-06-03T09:00:00Z;2;Pending;true;f9df9ea0-9f69-47cd-8b26-92dc2f9372f1
+b9543c62-4b2e-4485-b7e6-d339bc7ea2cb;Earned;Rejected;2024-06-20;2024-06-22;Vacation plan;3;2024-06-05T10:00:00Z;1;Rejected due to project deadline;false;f26e452a-4375-4565-8e7e-0d8ef157f4aa

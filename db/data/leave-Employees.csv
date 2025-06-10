@@ -1,0 +1,4 @@
+ID;createdAt;createdBy;modifiedAt;modifiedBy;empID;name;email;phoneNumber;location;country;jobTitle;department;sickLeaveAvailable;sickLeaveApplied;sickLeaveAvailed;casualLeaveAvailable;casualLeaveApplied;casualLeaveAvailed;earnedLeaveAvailable;earnedLeaveApplied;earnedLeaveAvailed
+b45f9709-0a8e-4122-bcb9-89bb4146a8c7;2024-01-01T09:00:00Z;admin;2024-01-01T09:00:00Z;admin;1001;John Doe;john.doe@example.com;+1-555-111-2222;California;US;Developer;IT;7;0;3;8;0;0;15;0;0
+f9df9ea0-9f69-47cd-8b26-92dc2f9372f1;2024-01-02T10:00:00Z;admin;2024-01-02T10:00:00Z;admin;1002;Jane Smith;jane.smith@example.com;+1-555-333-4444;New York;US;Project Manager;PMO;12;0;0;8;2;0;18;0;0
+f26e452a-4375-4565-8e7e-0d8ef157f4aa;2024-01-03T11:00:00Z;admin;2024-01-03T11:00:00Z;admin;1003;Ali Khan;ali.khan@example.com;+91-98765-43210;Karnataka;IN;QA Engineer;QA;8;0;0;6;0;0;12;0;0

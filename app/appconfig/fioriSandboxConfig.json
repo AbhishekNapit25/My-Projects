@@ -1,0 +1,88 @@
+{
+  "services": {
+    "LaunchPage": {
+      "adapter": {
+        "config": {
+          "catalogs": [],
+          "groups": [
+            {
+              "id": "emp-leave-mgmt-system",
+              "title": "Employee Leave Management System",
+              "isPreset": true,
+              "isVisible": true,
+              "isGroupLocked": false,
+              "tiles": [
+                {
+                  "id": "EmpLeaveRequest",
+                  "tileType": "sap.ushell.ui.tile.StaticTile",
+                  "properties": {
+                    "title": "Employee Leave Requests",
+                    "targetURL": "#EmpLeaveRequest-manage"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "Administration",
+              "title": "Administration",
+              "isPreset": true,
+              "isVisible": true,
+              "isGroupLocked": false,
+              "tiles": [
+                {
+                  "id": "Admin",
+                  "tileType": "sap.ushell.ui.tile.StaticTile",
+                  "properties": {
+                    "title": "Manage Employees",
+                    "targetURL": "#Admin-manage"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "NavTargetResolution": {
+      "config": {
+        "enableClientSideTargetResolution": true
+      }
+    },
+    "ClientSideTargetResolution": {
+      "adapter": {
+        "config": {
+          "inbounds": {
+            "EmpLeaveRequest": {
+              "semanticObject": "EmpLeaveRequest",
+              "action": "manage",
+              "title": "Employees Leave Requests",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "ignored"
+              },
+              "resolutionResult": {
+                "applicationType": "SAPUI5",
+                "additionalInformation": "SAPUI5.Component=empleaverequest",
+                "url": "emp-leave-request/webapp"
+              }
+            },
+            "Admin": {
+              "semanticObject": "Admin",
+              "action": "manage",
+              "title": "Manage Employees",
+              "signature": {
+                "parameters": {},
+                "additionalParameters": "allowed"
+              },
+              "resolutionResult": {
+                "applicationType": "SAPUI5",
+                "additionalInformation": "SAPUI5.Component=admin",
+                "url": "admin/webapp"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

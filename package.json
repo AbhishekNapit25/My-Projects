@@ -1,0 +1,56 @@
+{
+  "name": "employee-leave-mgmt-system",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@cap-js/postgres": "^1",
+    "@sap/cds": "^8",
+    "@sap/cds-common-content": "^3.0.1",
+    "@sap/hana-client": "^2.24.26",
+    "@sap/xssec": "^4",
+    "date-fns": "^4.1.0",
+    "express": "^4",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@cap-js/cds-types": "^0.10.0",
+    "@cap-js/sqlite": "^1",
+    "@sap/cds-dk": "^8",
+    "mbt": "^1.2.29",
+    "rimraf": "^5.0.5"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-employees-ui": "cds watch --open employees-ui/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-employee-leave-request": "cds watch --open employee-leave-request/webapp/index.html?sap-ui-xx-viewCache=false",
+    "undeploy": "cf undeploy employee-leave-mgmt-system --delete-services --delete-service-keys --delete-service-brokers",
+    "build": "rimraf resources mta_archives && mbt build --mtar archive",
+    "deploy": "cf deploy mta_archives/archive.mtar --retries 1",
+    "watch-emp-leave-request": "cds watch --open emp-leave-request/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-admin": "cds watch --open admin/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "hana"
+      },
+      "[sqlite]": {
+        "db": "sqlite",
+        "auth": "dummy"
+      },
+      "auth": "dummy"
+    }
+  },
+  "sapux": [
+    "app/admin-books",
+    "app/browse",
+    "app/employees-ui",
+    "app/employee-leave-request",
+    "app/emp-leave-request",
+    "app/admin",
+    "app/admin"
+  ]
+}
