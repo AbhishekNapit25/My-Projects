@@ -114,7 +114,7 @@ module.exports = class LeaveService extends cds.ApplicationService {
           employee_empID: req.params[0].empID
         });
 
-      req.notify(200, `Leave Request submitted successfully 🤩`)
+      req.notify(200, `Leave Request submitted successfully`)
     });
 
     this.on('approveLeave', async (req) => {

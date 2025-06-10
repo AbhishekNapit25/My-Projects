@@ -131,7 +131,7 @@ MIT License — feel free to use, modify, and contribute.
 
 ## 👥 Contributors
 
-* Abhishek Napit(https://github.com/your-profile) — Lead Developer
+* Abhishek Napit (https://github.com/AbhishekNapit25/My-Projects/tree/emp-leave-mgmt-system) — Lead Developer
 
 > Contributions welcome! Feel free to fork the repo, submit pull requests, or open issues.
 
@@ -141,7 +141,7 @@ MIT License — feel free to use, modify, and contribute.
 
 For support or inquiries:
 
-📧 [your.email@example.com](mailto:abhisheknapit557@gmail.com)
-🌐 [LinkedIn](https://linkedin.com/in/yourprofile)
+📧 [Email](mailto:abhisheknapit557@gmail.com)
+🌐 [LinkedIn](https://www.linkedin.com/in/abhishek-napit-5182a7242/)
 
 ```

@@ -1,8 +1,8 @@
 {
   "name": "employee-leave-mgmt-system",
   "version": "1.0.0",
-  "description": "A simple CAP project.",
-  "repository": "<Add your repository here>",
+  "description": "Employee Leave Management System",
+  "repository": "https://github.com/AbhishekNapit25/My-Projects",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
